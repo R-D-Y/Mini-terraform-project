@@ -19,7 +19,8 @@
 
 ## Open your browser, query the DNS of your load balancer, and take a screenshot proving that it works.
 
-![image](https://github.com/R-D-Y/Mini-terraform-project/assets/102509252/014b0950-1cc1-4e2a-b25c-f7deb38fd52a)
+![image](https://github.com/R-D-Y/Mini-terraform-project/assets/102509252/17a9b873-1f8d-48ab-8dce-1c3c4e747892)
+
 
 
 ## The result of terraform destroy that entirely works.
