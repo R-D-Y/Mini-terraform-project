@@ -24,6 +24,15 @@ module "webserver" {
   public_subnets    = module.vpc.public_subnet_ids
 }
 
+terraform {
+  backend "s3" {
+    profile = "TP1"
+    bucket = "remi-s3-tfstate"
+    key    = "tfstate/terraform.tfstate"
+    region = "eu-central-1"
+  }
+}
+
 
 output "load_balancer_dns" {
   value = module.webserver.load_balancer_dns
